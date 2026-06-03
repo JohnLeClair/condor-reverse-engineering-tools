@@ -1,0 +1,11 @@
+pyproject.toml
+host-src/emfi_tools.egg-info/PKG-INFO
+host-src/emfi_tools.egg-info/SOURCES.txt
+host-src/emfi_tools.egg-info/dependency_links.txt
+host-src/emfi_tools.egg-info/top_level.txt
+host-src/shared/__init__.py
+host-src/shared/arduino_mega2560_target.py
+host-src/shared/naeusb.py
+host-src/shared/sram_as6c3216A_emfi_target.py
+host-src/shared/srammap.py
+host-src/shared/stm32h7_swd_target.py

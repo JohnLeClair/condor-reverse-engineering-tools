@@ -1,0 +1,6 @@
+# =============================================================
+# Condor Reverse Engineering Tools - USB Device Rules
+# =============================================================
+
+SUBSYSTEM=="usb", ATTRS{idVendor}=="04d8", MODE="0664", GROUP="plugdev", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTRS{idVendor}=="04d8", SYMLINK+="emfi-target-%n"

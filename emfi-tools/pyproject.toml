@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "emfi-tools"
+version = "0.1.0"
+description = "EMFI Tools Host Package"
+requires-python = ">=3.9"
+
+[tool.setuptools.packages.find]
+where = ["host-src"]
+include = ["*"]
+namespaces = false
+
+[tool.setuptools.package-dir]
+"" = "host-src"
