@@ -12,10 +12,13 @@ Contains host control software and the actual hardware and firmware files for va
 
 ### Install Required Host Software (on Ubuntu): 
 - sudo apt install python3-pip
+- sudo apt install python3-venv (optional)
 - pip install pyswd pyserial libusb1 chipwhisperer matplotlib
 
-### cd <condor-reverse-engineering-tools folder location> 
+### Make the python packages editable
 ~~~
+cd <condor-reverse-engineering-tools folder location> 
+
 pip uninstall -y emfi-tools
 pip uninstall -y side-channel-tools
 
